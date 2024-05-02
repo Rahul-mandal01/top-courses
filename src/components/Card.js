@@ -1,12 +1,13 @@
 import React from 'react'
 import {FcLike} from "react-icons/fc";
 
-const Card = (course) => {
+ const Card = (props) => {
+    let course = props.course;
 
   return (
     <div>
         <div>
-            <img src = {course.image.url}></img>
+            <img src = {course.image.url} alt="Not Found"></img>
 
             <div>
                 <button>
