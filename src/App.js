@@ -1,4 +1,5 @@
-import React, { useState, useEffect, toast } from "react";
+import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { apiUrl, filterData } from "./data";
 import Navbar from "./components/Navbar";
 import Filter from "./components/Filter";
